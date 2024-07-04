@@ -8,11 +8,13 @@
 
     ![alt text](images/01_01_ColabDirectory.png)
 
+    <sup>Note: แก้ไขจากภาพประกอบเป็น "2567_1_4663236_DataScience" </sup>
+
 
 2) ภายในกล่อง "2567_1_4663236_DataScience" ให้สร้างกล่องชื่อ "Datasets" เพื่อเก็บข้อมูลที่ใช้ในรายวิชานี้
 
     ![alt text](images/01_02_Datasets.png)
-
+     <sup>Note: แก้ไขจากภาพประกอบเป็น "2567_1_4663236_DataScience" </sup>
 
 ------------------------
 **ตัวอย่างการ Mount Google Drive และการอ่านเขียนไฟล์ไปยัง Google Drive**
