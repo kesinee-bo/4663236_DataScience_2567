@@ -6,3 +6,6 @@
 **Basic Python**
 * [ภาษาไพธอนเบื้องต้น](02_BasicPython.md)
 
+**Data Preparation**
+* [การใช้งาน Pandas และการเตรียมข้อมูล (Data Preparation)](03_Pandas.md)
+
