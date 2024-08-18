@@ -8,4 +8,5 @@
 
 **Data Preparation**
 * [การใช้งาน Pandas และการเตรียมข้อมูล (Data Preparation)](03_Pandas.md)
+* [ตัวอย่างการเตรียมข้อมูล (Students)](05_DataPrepExample.md)
 
