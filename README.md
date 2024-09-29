@@ -13,4 +13,6 @@
 
 **Classification**
 * [การจำแนกข้อมูล (Classification) โดยใช้ Scikit-learn (Part 1 - Decision Tree)](06_Classification_DT.md)
+* [การจำแนกข้อมูล (Classification) โดยใช้ Scikit-learn (Part 2 - Naïve Bayes)](07_Classifiaction_NB.md)
+* [การจำแนกข้อมูล (Classification) โดยใช้ Scikit-learn (Part 3 - k-Nearest Neighbors)](08_Classifiaction_Knn.md)
 
