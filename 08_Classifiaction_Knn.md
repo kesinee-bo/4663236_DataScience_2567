@@ -59,7 +59,7 @@ from sklearn.preprocessing import StandardScaler
 iris = datasets.load_iris()
 
 #แบ่งข้อมูลเป็น 70% สำหรับ train และ 30% สำหรับ test
-X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3)
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3 ,stratify=y)
 
 #ทำ Data Normalization ด้วย StandardScaler
 scaler = StandardScaler()
