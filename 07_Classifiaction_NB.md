@@ -41,7 +41,7 @@ clf.fit(iris.data, iris.target)
 
 ### ตัวอย่างโค้ดการแบ่งข้อมูลและ train model
 
-การแบ่งข้อมูลบางส่วนสำหรับการ train โมเดล และแบ่งข้อมูลส่วนอื่น ๆ สำหรับการทดสอบโมเดล สามารถทำได้โดยใช้คำสั่ง train_test_split ใน scikit-learn โดยรายละเอียดอย่างละเอียดได้อธิบายไว้ในหัวข้อก่อนหน้านี้แล้ว โดยในตัวอย่างนี้จะแบ่งข้อมูล 70:30 
+การแบ่งข้อมูลบางส่วนสำหรับการ train โมเดล และแบ่งข้อมูลส่วนอื่น ๆ สำหรับการทดสอบโมเดล สามารถทำได้โดยใช้คำสั่ง  ใน scikit-learn โดยรายละเอียดอย่างละเอียดได้อธิบายไว้ในหัวข้อก่อนหน้านี้แล้ว โดยในตัวอย่างนี้จะแบ่งข้อมูล 70:30 
 
 นอกจากนี้สำหรับโมเดล Naïve Bayes สามารถเพิ่มประสิทธิภาพการทำงานได้อีกโดยการทำ Data Normalization ก่อนการ train โมเดล โดยใช้คำสั่ง StandardScaler ใน scikit-learn ดังตัวอย่างโค้ดด้านล่าง
 
@@ -55,7 +55,7 @@ from sklearn.preprocessing import StandardScaler
 iris = datasets.load_iris()
 
 #แบ่งข้อมูลเป็น 70% สำหรับ train และ 30% สำหรับ test
-X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3)
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3 ,stratify=y)
 
 #ทำ Data Normalization ด้วย StandardScaler
 scaler = StandardScaler()
