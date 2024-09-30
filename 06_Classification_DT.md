@@ -83,7 +83,7 @@ from sklearn.model_selection import train_test_split
 iris = datasets.load_iris()
 
 #แบ่งข้อมูลเป็น 70% สำหรับ train และ 30% สำหรับ test
-X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3)
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3, stratify=y)
 
 #สร้างโมเดล
 clf = tree.DecisionTreeClassifier()
@@ -403,7 +403,7 @@ x=df_cancer.drop(["diagnosis"], axis=1)
 ```python
 from sklearn import tree
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
+X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3 ,stratify=y)
 clf_cancer = tree.DecisionTreeClassifier()
 clf_cancer.fit(X_train, y_train )
 ```
