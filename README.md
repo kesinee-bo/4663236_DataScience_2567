@@ -17,3 +17,6 @@
 * [การจำแนกข้อมูล (Classification) โดยใช้ Scikit-learn (Part 3 - k-Nearest Neighbors)](08_Classifiaction_Knn.md)
 * [การประเมินประสิทธิภาพโมเดล](09_Model_Evaluation.md)
 
+**Text Classification**
+* [Text Classification in Machine Learning (Thai Language)](11_nlp_text_classification.md)
+
