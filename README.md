@@ -20,3 +20,6 @@
 **Text Classification**
 * [Text Classification in Machine Learning (Thai Language)](11_nlp_text_classification.md)
 
+**Clustering**
+* [การแบ่งกลุ่ม (Clustering) โดยใช้ K-meanns (Python)](10_kmean.md)
+
